@@ -718,11 +718,15 @@ footer{
 .icon-wrapper{
     display: flex;
     gap: 1rem;
+}
+.icon-wrapper a{
+    display: flex;
+    gap: 1rem;
     font-size:2rem;
     color: white;
 }
 
-.icon-wrapper i:hover{
+.icon-wrapper a i:hover{
     scale:1.1;
     color: var(--bgOrange);
     transition:0.3s;
